@@ -1,0 +1,17 @@
+{
+  "name": "language566translatorbot",
+  "version": "1.0.0",
+  "description": "Telegram bot that translates text between languages",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
